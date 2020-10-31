@@ -7,7 +7,7 @@ ${APP}: *.cs
 	@dotnet build
 
 run: ${APP}
-	./${APP}
+	@./${APP}
 
 clean:
 	@rm -rf bin
